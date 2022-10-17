@@ -64,7 +64,7 @@ You can install the missing language server libraries after opened Neovim.
 :LspInstall language_name
 ```
 
-You can also visit [LspConfig](https://github.com/neovim/nvim-lspconfig) for more details about the configuration that LSP support. The current settings may only satisfied my personal need, feel free to use it as a template if you want to install other plugins (e.g. debugger, colorscheme, popup terminal, etc...), I will make down the file structure below.
+You can also visit [LspConfig](https://github.com/neovim/nvim-lspconfig) for more details about the configuration that LSP support. The current settings may only satisfied my personal need, feel free to use it as a template if you want to install other plugins (e.g. debugger, colorscheme, popup terminal, etc...), I will mark down the file structure below.
 
 # File Structure
 ```python
