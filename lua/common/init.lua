@@ -40,6 +40,7 @@ local v_options = {
   undofile = true,
   writebackup = false,
   termguicolors = true,
+  timeoutlen = 0,
   -- files settings --
 }
 -- colorscheme

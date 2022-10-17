@@ -7,11 +7,11 @@ local function keymap(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
--- leader key -- 
-keymap("", "<Space>", '<cmd>lua require("which-key").show(" ", {mode = "n", auto = true})<cr>')
+-- leader key --
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
--- leader key -- 
+keymap("", "<Space>", '<cmd>lua require("which-key").show(" ", {mode = "n", auto = true})<cr>')
+-- leader key --
 
 
 -- normal --
@@ -30,7 +30,7 @@ wk.register({
     },
     -- nvimtree
     e = { "<cmd>NvimTreeToggle<cr>", "Open Explorer" },
-    q = { "<cmd>bdelete<cr>", "Close Tab"},
+    q = { "<cmd>bdelete<cr>", "Close Tab" },
     -- bufferline
     b = {
       name = "Bufferline",
